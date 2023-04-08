@@ -144,23 +144,30 @@ print(x_single_prediction)
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-![](img1.jfif)
 
 ![](img2.jfif)
+![](img5.jfif)
+
 
 ### Classification Report
 
-![](img3.jfif)
+![](img1.jfif)
+
+
+
 
 ### Confusion Matrix
 
-![](img4.jfif)
-
-### New Sample Data Prediction
-
-![](img5.jfif)
 
 ![](img6.jfif)
+
+
+### New Sample Data Prediction
+![](img3.jfif)
+
+![](img4.jfif)
+
+
 
 ## RESULT :
 Thus a convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is written and executed successfully.
