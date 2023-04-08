@@ -119,9 +119,9 @@ print(confusion_matrix(ytest,xtest_predictions))
 
 print(classification_report(ytest,xtest_predictions))
 
-img = image.load_img('dl.png')
+img = image.load_img('nine.png')
 type(img)
-img = image.load_img('dl.png')
+img = image.load_img('nine.png')
 img_tensor = tf.convert_to_tensor(np.asarray(img))
 img_28 = tf.image.resize(img_tensor,(28,28))
 img_28_gray = tf.image.rgb_to_grayscale(img_28)
